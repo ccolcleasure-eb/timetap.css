@@ -13,7 +13,7 @@
   --palette-secondary-light: #bb6bc9;
   --palette-secondary-contrastText: #ffffff;
   --palette-error-main: #f44336;
-  --palette-error-dark: #e31b0c;
+  --palette-error-dark: #e31b0c;gf
   --palette-error-light: #f88078;
   --palette-error-contrastText: #ffffff;
   --palette-warning-main: #ff9800;
@@ -423,6 +423,18 @@ label.mat-radio-label mat-radio-label-content {
 
 .panelTopDescriptionText {
   text-align: left;
+}
+
+#nextBtn .mat-button-wrapper {
+  color: #fff !important;
+}
+
+#backBtn .mat-button-wrapper {
+  color: #007DFF !important;
+}
+
+#backBtn {
+  border: none !important;
 }
 
 @media screen and (max-width: 500px) {
