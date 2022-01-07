@@ -427,10 +427,20 @@ label.mat-radio-label mat-radio-label-content {
 
 #nextBtn .mat-button-wrapper {
   color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 100%;
 }
 
 #backBtn .mat-button-wrapper {
   color: #007DFF !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 100%;
 }
 
 #backBtn {
@@ -467,3 +477,4 @@ label.mat-radio-label mat-radio-label-content {
 .mat-radio-button.mat-radio-button-tt .mat-radio-inner-circle, .mat-radio-button.mat-radio-button-tt .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-radio-button-tt.mat-radio-checked .mat-radio-persistent-ripple {
   background-color: var(--palette-primary-main);
 }
+
