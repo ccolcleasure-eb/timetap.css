@@ -447,3 +447,11 @@ label.mat-radio-label mat-radio-label-content {
     flex-direction: column-reverse;
   }
 }
+
+.mat-radio-button.mat-radio-button-tt.mat-radio-checked .mat-radio-outer-circle {
+ border-color: var(--palette-primary-main);
+}
+
+.mat-radio-button.mat-radio-button-tt .mat-radio-inner-circle, .mat-radio-button.mat-radio-button-tt .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-radio-button-tt.mat-radio-checked .mat-radio-persistent-ripple {
+  background-color: var(--palette-primary-main);
+}
