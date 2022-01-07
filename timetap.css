@@ -478,3 +478,6 @@ label.mat-radio-label mat-radio-label-content {
   background-color: var(--palette-primary-main);
 }
 
+.seatsChipInfo {
+  display: none;
+}
