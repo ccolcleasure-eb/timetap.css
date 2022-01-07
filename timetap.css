@@ -479,5 +479,5 @@ label.mat-radio-label mat-radio-label-content {
 }
 
 .seatsChipInfo {
-  display: none;
+  display: none !important;
 }
