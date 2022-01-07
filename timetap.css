@@ -282,32 +282,14 @@ mat-list-item.mat-list-item.selected.mat-2-line.ng-star-inserted {
   border: none;
 }
 
-[id="backBtn"] span:after,
-[id="nextBtn"] span:after {
-  letter-spacing: 1px;
-  display: flex;
-  position: relative;
-  bottom: 8px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 100%;
-}
 
-[id="backBtn"] span:after {
-  content: "BACK";
-  color: rgb(0, 113, 235);
-  font-weight: 600;
-}
+
 
 locations-panel form mat-list-item h3:first-of-type {
   font-weight: 700 !important;
 }
 
-[id="nextBtn"] span:after {
-  content: "NEXT";
-  color: #ffffff;
-}
+
 
 mat-list-item#rowFor630588.mat-list-item.selected.mat-list-item-no-avatar.ng-star-inserted,
 mat-list-item#rowFor630588.mat-list-item.selected.mat-list-item-no-avatar.ng-star-inserted:hover {
@@ -463,16 +445,7 @@ label.mat-radio-label mat-radio-label-content {
     width: 280px;
   }
 
-  [id="backBtn"] span:after,
-  [id="nextBtn"] span:after {
-    letter-spacing: 1px;
-    display: flex;
-    position: relative;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 100%;
-  }
+
 
   #schedulerContainerRow,
   #schedulerFooter.mat-card-actions {
