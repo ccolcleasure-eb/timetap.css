@@ -268,8 +268,6 @@ mat-list-item.mat-list-item.selected.mat-2-line.ng-star-inserted {
 
 [id="backBtn"],
 [id="nextBtn"] {
-  font-size: 0;
-  line-height: 0;
   height: 42px;
   border: none;
   display: inline-flex;
@@ -432,9 +430,6 @@ label.mat-radio-label mat-radio-label-content {
   }
 
   .mat-button-wrapper {
-    font-size: 0;
-    line-height: 0;
-
     border: none;
     display: inline-flex;
     justify-content: center;
